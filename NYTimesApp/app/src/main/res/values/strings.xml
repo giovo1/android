@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NYTimesApp</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_clean">Limpiar</string>
+    <string name="action_last_searches">Ultimas Búsquedas</string>
+    <string name="text_source">Fuente: </string>
+    <string name="text_pub_date">Fecha de publicación: </string>
+    <string name="text_url">Página web:</string>
+    <string name="text_error_search_query">"Solo son permitidas letras y numeros."</string>
+    <string name="text_error_conexion">"No existe conexión a Internet"</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NYTimesApp</string>
+    <string name="action_search">Search</string>
+    <string name="action_clean">Clean</string>
+    <string name="action_last_searches">Last Searches</string>
+    <string name="text_source">Source: </string>
+    <string name="text_pub_date">Publication date: </string>
+    <string name="text_url">Web page:</string>
+    <string name="text_error_search_query">"Only letters and numbers are valid"</string>
+    <string name="text_error_conexion">"No Internet connection"</string>
+</resources>
