@@ -59,7 +59,7 @@ public class NewsDeserialized implements JsonDeserializer<NewsResponse> {
 
             news = newsArray.get(i).getAsJsonObject();
             id = news.get(ConstantsRestApi.NEWS_ID).getAsString();
-            System.out.println("ID es: "+id);
+
             headline = news.get(ConstantsRestApi.NEWS_HEADLINE).getAsJsonObject().get(ConstantsRestApi.NEWS_HEADLINE_MAIN).getAsString();
             snippet = news.get(ConstantsRestApi.NEWS_SNIPPET).getAsString();
             source = news.get(ConstantsRestApi.NEWS_SOURCE).getAsString();
