@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AlertDialog</string>
+    <string name="dialog_title">Titulo Alerta</string>
+    <string name="dialog_message">Mensaje Alerta</string>
+    <string name="ok">Si</string>
+    <string name="cancel">Cancelar</string>
+</resources>

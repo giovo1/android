@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MenuPrincipal</string>
+    <string name="TituloPrincipal">Mi Aplicacion de Negocios</string>
+    <string name="OpcionServicios">Servicios</string>
+    <string name="OpcionPortafolio">Portafolio</string>
+    <string name="OpcionAcerca">Acerca de</string>
+    <string name="OpcionContacto">Contacto</string>
+    <string name="OpcionRedes">Redes Sociales</string>
+</resources>

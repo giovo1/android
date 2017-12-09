@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="miempresa.com.bo.menuprincipal.MainActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TituloPrincipal"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.435"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.059" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/imagen_hombre_negocios"
+            android:layout_weight="0.56" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:text="Boton Seleccionado:" />
+
+        <TextView
+            android:id="@+id/BotonPresionado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="actualizarTexto"
+        android:text="@string/OpcionServicios" />
+
+    <Button
+        android:id="@+id/buttonPortafolio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="actualizarTexto"
+        android:text="@string/OpcionPortafolio" />
+
+    <Button
+        android:id="@+id/buttonAcerca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="actualizarTexto"
+        android:text="@string/OpcionAcerca" />
+
+    <Button
+        android:id="@+id/buttonContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="actualizarTexto"
+        android:text="@string/OpcionContacto" />
+
+    <Button
+        android:id="@+id/buttonRedes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="actualizarTexto"
+        android:text="@string/OpcionRedes" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SessionTest</string>
+    <string name="initButton">Ingresar</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+</resources>

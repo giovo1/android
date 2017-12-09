@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestConexion</string>
+    <string name="conConexion">Usted tiene conexion</string>
+    <string name="sinConexion">Usted NO tiene conexion</string>
+</resources>
